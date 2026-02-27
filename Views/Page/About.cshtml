@@ -1,0 +1,113 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "About";
+}
+
+<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+    <!-- Hero -->
+    <div class="text-center mb-16">
+        <span class="text-sm font-semibold text-indigo-600 uppercase tracking-wider">Our story</span>
+        <h1 class="text-4xl md:text-5xl font-bold mt-2">About zenblog</h1>
+        <p class="text-gray-500 text-lg mt-4 max-w-2xl mx-auto">
+            A space for curious minds to explore ideas on design, technology, and mindful living.
+        </p>
+    </div>
+
+    <!-- Mission -->
+    <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 md:p-12 mb-8">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 bg-indigo-50 rounded-xl flex items-center justify-center">
+                <i class="fas fa-heart text-indigo-500"></i>
+            </div>
+            <h2 class="text-2xl font-bold">Our Mission</h2>
+        </div>
+        <p class="text-gray-600 leading-relaxed text-lg">
+            zenblog was created with a simple belief — that good ideas deserve a clear, distraction-free space
+            to breathe. We write for humans who are curious, thoughtful, and always learning.
+            Whether you're a designer, developer, or just someone who enjoys a good read, you'll find
+            something here that resonates.
+        </p>
+    </div>
+
+    <!-- Values Grid -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+            <div class="w-10 h-10 bg-indigo-50 rounded-xl flex items-center justify-center mb-4">
+                <i class="fas fa-pen-nib text-indigo-500"></i>
+            </div>
+            <h3 class="font-bold text-lg">Clarity</h3>
+            <p class="text-gray-500 text-sm mt-2">
+                We write clearly and concisely. No fluff, no filler — just ideas that matter.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+            <div class="w-10 h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-4">
+                <i class="fas fa-lightbulb text-purple-500"></i>
+            </div>
+            <h3 class="font-bold text-lg">Curiosity</h3>
+            <p class="text-gray-500 text-sm mt-2">
+                We explore topics with genuine curiosity and an open mind, always asking why.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+            <div class="w-10 h-10 bg-green-50 rounded-xl flex items-center justify-center mb-4">
+                <i class="fas fa-users text-green-500"></i>
+            </div>
+            <h3 class="font-bold text-lg">Community</h3>
+            <p class="text-gray-500 text-sm mt-2">
+                We believe in the power of sharing knowledge and growing together as a community.
+            </p>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 md:p-12 mb-8">
+        <h2 class="text-2xl font-bold mb-8">The Team</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="text-center">
+                <div class="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 text-2xl font-bold mx-auto">
+                    A
+                </div>
+                <h3 class="font-bold mt-3">Alex River</h3>
+                <p class="text-sm text-indigo-600">Founder & Editor</p>
+                <p class="text-xs text-gray-400 mt-1">Design & UX</p>
+            </div>
+            <div class="text-center">
+                <div class="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 text-2xl font-bold mx-auto">
+                    P
+                </div>
+                <h3 class="font-bold mt-3">Priya Kapoor</h3>
+                <p class="text-sm text-indigo-600">Lead Writer</p>
+                <p class="text-xs text-gray-400 mt-1">Technology & Dev</p>
+            </div>
+            <div class="text-center">
+                <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-green-600 text-2xl font-bold mx-auto">
+                    J
+                </div>
+                <h3 class="font-bold mt-3">Jordan Lee</h3>
+                <p class="text-sm text-indigo-600">Contributing Writer</p>
+                <p class="text-xs text-gray-400 mt-1">Lifestyle & Mindfulness</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-3xl p-8 md:p-12 text-center">
+        <h2 class="text-2xl font-bold">Want to contribute?</h2>
+        <p class="text-gray-600 mt-2 max-w-md mx-auto">
+            We're always looking for passionate writers to join our community.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center mt-6">
+            <a asp-action="Register" asp-controller="Account"
+               class="bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-3 rounded-full font-medium transition">
+                Get Started
+            </a>
+            <a asp-action="Contact" asp-controller="Page"
+               class="border border-gray-300 hover:border-indigo-300 px-7 py-3 rounded-full font-medium text-gray-700 transition">
+                Contact Us
+            </a>
+        </div>
+    </div>
+
+</main>

@@ -1,0 +1,9 @@
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.csproj.AssemblyReference.cache
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\rpswa.dswa.cache.json
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.AssemblyInfoInputs.cache
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.AssemblyInfo.cs
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.csproj.CoreCompileInputs.cache
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.RazorAssemblyInfo.cache
+C:\Users\IBRAHEEM\Desktop\BE_ML\BE\C#\BlogApp\obj\Release\net9.0\BlogApp.RazorAssemblyInfo.cs

@@ -1,0 +1,1494 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\page\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\page\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\page\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\page\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\page\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\page\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\page\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\page\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\category\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\category\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\blogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\blogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\categorydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\categorydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\admincommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\admincommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admincomment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admincomment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\admincommentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\admincommentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\adminblogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\adminblogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admintag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admintag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admincategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admincategory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admintag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admintag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admintag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admintag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admincategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admincategory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\adminblogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\adminblogpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\adminuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\adminuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\admintagviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\admintagviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\admincategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\admincategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\adminblogpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\adminblogpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\admin\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\admin\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\controllers\\admin\\admintagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:controllers\\admin\\admintagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\home\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\home\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\blogpost\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\blogpost\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\blogpostdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\blogpostdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\blogpost\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\blogpost\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\blogpost\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\blogpost\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\blogpost\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\blogpost\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\blogpostindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\blogpostindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\services\\implementations\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:services\\implementations\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\blogapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:blogapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\blogpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\blogpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\viewmodels\\blogpostformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:viewmodels\\blogpostformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|c:\\users\\ibraheem\\desktop\\be_ml\\be\\c#\\blogapp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8588F62D-E55D-4303-8C08-873AAAACF7E2}|BlogApp.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-27T10:12:42.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:53:18.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Terms.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Terms.cshtml",
+              "RelativeDocumentMoniker": "Views\\Page\\Terms.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Terms.cshtml",
+              "RelativeToolTip": "Views\\Page\\Terms.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwFQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:52:36.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Page\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Page\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:51:40.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Page\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Page\\Contact.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:50:55.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Page\\About.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Page\\About.cshtml",
+              "RelativeToolTip": "Views\\Page\\About.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:49:47.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PageController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\PageController.cs",
+              "RelativeToolTip": "Controllers\\PageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T20:48:30.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T20:31:29.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:29:31.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:28:32.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:27:17.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:47:16.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:50:35.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T20:26:23.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Category\\All.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\All.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Category\\All.cshtml",
+              "RelativeToolTip": "Views\\Category\\All.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T20:20:07.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:33:30.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:22:03.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T04:53:15.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:55:49.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:24:36.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:23:33.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Controllers\\CommentController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:58:57.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LikeController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\LikeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LikeController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\LikeController.cs",
+              "RelativeToolTip": "Controllers\\LikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T15:00:53.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\CategoryRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA8wD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:16:11.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAOIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:55:14.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\BlogPost\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Index.cshtml",
+              "RelativeToolTip": "Views\\BlogPost\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T07:00:36.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CategoryDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CategoryDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CategoryDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CategoryDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:23:15.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminCommentController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminCommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminCommentController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminCommentController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminCommentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T21:45:12.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlogPostController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\BlogPostController.cs",
+              "RelativeToolTip": "Controllers\\BlogPostController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T21:36:56.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T20:25:29.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminComment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminComment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminComment\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminComment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T21:49:10.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminCommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminCommentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminCommentViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminCommentViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminCommentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T21:46:49.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminDashboardController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminDashboardController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:07:58.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:57:13.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminDashboard\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T20:27:26.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\BlogPostRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\BlogPostRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:15:05.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminTag\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdminTag\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:48:15.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminCategory\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdminCategory\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T04:49:08.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminTag\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdminTag\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:47:20.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminTag\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminTag\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminTag\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T13:45:34.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminCategory\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdminCategory\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T04:52:00.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminBlogPostController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminBlogPostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminBlogPostController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminBlogPostController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminBlogPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:09:55.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminCategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminCategoryController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminCategoryController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:11:02.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminCategory\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T04:46:22.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminBlogPost\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminBlogPost\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\AdminBlogPost\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminBlogPost\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T20:50:00.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T20:20:21.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminUserViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:19:03.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T05:09:57.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:06:43.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminTagViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminTagViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminTagViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminTagViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminTagViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:18:04.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdminCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminCategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminCategoryViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminCategoryViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:16:49.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminBlogPostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminBlogPostViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminBlogPostViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminBlogPostViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminBlogPostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:16:01.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Admin\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\Admin\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Admin\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:15:11.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T09:07:26.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminUserController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:12:55.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AdminTagController.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminTagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\AdminTagController.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Controllers\\Admin\\AdminTagController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\AdminTagController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:11:59.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T15:10:54.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\BlogPost\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Edit.cshtml",
+              "RelativeToolTip": "Views\\BlogPost\\Edit.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAgwM0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T14:51:43.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MyPosts.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\MyPosts.cshtml",
+              "RelativeDocumentMoniker": "Views\\BlogPost\\MyPosts.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\MyPosts.cshtml",
+              "RelativeToolTip": "Views\\BlogPost\\MyPosts.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAgwJUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T14:43:41.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\BlogPost\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Detail.cshtml",
+              "RelativeToolTip": "Views\\BlogPost\\Detail.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T14:34:04.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BlogPostDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BlogPostDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BlogPostDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:10:50.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Post.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Home\\Post.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Post.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Home\\Post.cshtml",
+              "RelativeToolTip": "Views\\Home\\Post.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:56:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BlogPostIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostIndexViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BlogPostIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostIndexViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BlogPostIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:09:52.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CommentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CommentViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\CommentViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CommentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:12:03.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:06:20.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\BlogPost\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\BlogPost\\Create.cshtml",
+              "RelativeToolTip": "Views\\BlogPost\\Create.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAALEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:56:20.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T04:47:51.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:10:46.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:33:30.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Implementations\\ImageService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ImageService.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Implementations\\ImageService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:12:09.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "LikeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\LikeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\LikeRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\LikeRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\LikeRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:19:17.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T08:55:52.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T08:53:46.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:08:38.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ITagRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:02:14.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ILikeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ILikeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ILikeRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ILikeRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ILikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:03:44.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ICommentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:03:00.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T07:40:16.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IBlogPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T07:32:40.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:20:28.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\CommentRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:18:05.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\TagRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\TagRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvywAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:17:08.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:13:34.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IImageService.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:07:26.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:36:59.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Services\\ImageService.cs",
+              "RelativeToolTip": "Services\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:04:41.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BlogApp.csproj",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\BlogApp.csproj",
+              "RelativeDocumentMoniker": "BlogApp.csproj",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\BlogApp.csproj",
+              "RelativeToolTip": "BlogApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T08:03:36.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "BlogPostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BlogPostViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BlogPostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:01:56.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "BlogPostFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostFormViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BlogPostFormViewModel.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\ViewModels\\BlogPostFormViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BlogPostFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:59:15.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\Models\\BlogPost.cs",
+              "RelativeToolTip": "Models\\BlogPost.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA1wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T21:35:52.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T22:32:23.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\IBRAHEEM\\Desktop\\BE_ML\\BE\\C#\\BlogApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T14:29:06.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

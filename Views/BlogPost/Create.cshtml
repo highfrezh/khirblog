@@ -1,0 +1,204 @@
+﻿@model BlogPostFormViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Create New Post";
+}
+
+<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+    <!-- Page Header -->
+    <div class="flex items-center justify-between mb-8">
+        <h1 class="text-3xl md:text-4xl font-bold">Create new post</h1>
+        <a asp-action="Index" asp-controller="BlogPost"
+           class="text-gray-400 hover:text-indigo-600 transition">
+            <i class="fas fa-times text-xl"></i>
+        </a>
+    </div>
+
+    <!-- Validation Summary -->
+    <div asp-validation-summary="ModelOnly" class="text-red-500 text-sm bg-red-50 border border-red-200 rounded-xl px-4 py-3 mb-6"></div>
+
+    <!-- Main Form -->
+    <form asp-action="Create" asp-controller="BlogPost" method="post"
+          enctype="multipart/form-data" class="space-y-6">
+        @Html.AntiForgeryToken()
+
+        <!-- Title -->
+        <div>
+            <label asp-for="Title" class="block text-sm font-medium text-gray-700 mb-1">
+                Post title <span class="text-red-400">*</span>
+            </label>
+            <input asp-for="Title" placeholder="e.g., Designing with empathy"
+                   class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-300 focus:outline-none transition" />
+            <span asp-validation-for="Title" class="text-red-500 text-sm"></span>
+        </div>
+
+        <!-- Slug & Category Row -->
+        <div class="grid sm:grid-cols-2 gap-4">
+
+            <!-- Slug -->
+            <div>
+                <label asp-for="Slug" class="block text-sm font-medium text-gray-700 mb-1">
+                    Slug (URL)
+                </label>
+                <div class="flex items-center border border-gray-200 rounded-xl overflow-hidden focus-within:ring-2 focus-within:ring-indigo-300">
+                    <span class="bg-gray-50 px-3 text-gray-400 text-sm py-3">/blog/</span>
+                    <input asp-for="Slug" placeholder="designing-with-empathy"
+                           class="flex-1 px-3 py-3 border-0 focus:outline-none" />
+                </div>
+                <span asp-validation-for="Slug" class="text-red-500 text-sm"></span>
+                <p class="text-xs text-gray-400 mt-1">Leave empty to auto-generate from title</p>
+            </div>
+
+            <!-- Category -->
+            <div>
+                <label asp-for="CategoryId" class="block text-sm font-medium text-gray-700 mb-1">
+                    Category <span class="text-red-400">*</span>
+                </label>
+                <select asp-for="CategoryId" asp-items="Model.Categories"
+                        class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-300 focus:outline-none bg-white">
+                    <option value="">-- Select Category --</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-red-500 text-sm"></span>
+            </div>
+        </div>
+
+        <!-- Tags -->
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Tags</label>
+            <div class="flex flex-wrap gap-2">
+                @if (Model.Tags != null)
+                {
+                    @foreach (var tag in Model.Tags)
+                    {
+                        <label class="flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-full text-sm cursor-pointer hover:border-indigo-300 transition has-[:checked]:border-indigo-600 has-[:checked]:bg-indigo-50 has-[:checked]:text-indigo-700">
+                            <input type="checkbox"
+                                   name="SelectedTagIds"
+                                   value="@tag.Value"
+                                   class="hidden"
+                                   @(Model.SelectedTagIds != null && Model.SelectedTagIds.Contains(int.Parse(tag.Value)) ? "checked" : "") />
+                            #@tag.Text
+                        </label>
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- Cover Image Upload -->
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Cover image</label>
+            <div class="border-2 border-dashed border-gray-200 rounded-xl p-6 text-center hover:border-indigo-300 transition cursor-pointer"
+                 onclick="document.getElementById('ImageFile').click()">
+                <i class="fas fa-cloud-upload-alt text-3xl text-gray-300 mb-2"></i>
+                <p class="text-gray-500">Click to upload or drag and drop</p>
+                <p class="text-xs text-gray-400 mt-1">PNG, JPG, GIF, WEBP up to 5MB</p>
+            </div>
+            <input asp-for="ImageFile" type="file" id="ImageFile"
+                   class="hidden" accept="image/*"
+                   onchange="previewImage(event)" />
+            <!-- Image Preview -->
+            <div id="imagePreview" class="mt-3 hidden">
+                <img id="previewImg" src="#" alt="Preview"
+                     class="w-full max-h-48 object-cover rounded-xl" />
+                <button type="button" onclick="clearImage()"
+                        class="mt-2 text-xs text-red-500 hover:underline">
+                    Remove image
+                </button>
+            </div>
+            <span asp-validation-for="ImageFile" class="text-red-500 text-sm"></span>
+        </div>
+
+        <!-- Content -->
+        <div>
+            <label asp-for="Content" class="block text-sm font-medium text-gray-700 mb-1">
+                Content <span class="text-red-400">*</span>
+            </label>
+            <textarea asp-for="Content" rows="12"
+                      placeholder="Write your post content here..."
+                      class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-300 focus:outline-none font-mono text-sm"></textarea>
+            <span asp-validation-for="Content" class="text-red-500 text-sm"></span>
+        </div>
+
+        <!-- Excerpt -->
+        <div>
+            <label asp-for="Excerpt" class="block text-sm font-medium text-gray-700 mb-1">
+                Excerpt <span class="text-gray-400 font-normal">(optional)</span>
+            </label>
+            <textarea asp-for="Excerpt" rows="3"
+                      placeholder="Brief summary for listing pages"
+                      class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-300 focus:outline-none"></textarea>
+            <span asp-validation-for="Excerpt" class="text-red-500 text-sm"></span>
+        </div>
+
+        <!-- Publish Status -->
+        <div class="bg-gray-50 p-5 rounded-xl flex flex-wrap gap-4 items-center">
+            <div class="flex items-center gap-2">
+                <input asp-for="IsPublished" type="checkbox"
+                       class="rounded border-gray-300 text-indigo-600" />
+                <label asp-for="IsPublished" class="text-sm text-gray-700">
+                    Publish immediately
+                </label>
+            </div>
+            <p class="text-xs text-gray-400 ml-auto">
+                Uncheck to save as draft
+            </p>
+        </div>
+
+        <!-- Form Actions -->
+        <div class="flex flex-wrap gap-3 justify-end pt-4 border-t border-gray-200">
+            <a asp-action="Index" asp-controller="BlogPost"
+               class="px-6 py-2.5 border border-gray-200 hover:border-gray-300 rounded-full text-sm font-medium transition">
+                Cancel
+            </a>
+            <button type="submit" name="IsPublished" value="false"
+                    class="px-6 py-2.5 border border-indigo-200 text-indigo-600 hover:bg-indigo-50 rounded-full text-sm font-medium transition">
+                <i class="fas fa-save mr-1"></i> Save as draft
+            </button>
+            <button type="submit" name="IsPublished" value="true"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-2.5 rounded-full text-sm font-medium transition shadow-sm">
+                <i class="fas fa-paper-plane mr-1"></i> Publish
+            </button>
+        </div>
+    </form>
+
+    <p class="text-xs text-gray-400 text-center mt-8">
+        After publishing, the post will be live immediately.
+    </p>
+</main>
+
+@section Scripts {
+    <script>
+        // Auto-generate slug from title
+        document.getElementById('Title').addEventListener('input', function () {
+            const slugField = document.getElementById('Slug');
+            if (!slugField.value) {
+                slugField.value = this.value
+                    .toLowerCase()
+                    .replace(/[^a-z0-9\s-]/g, '')
+                    .replace(/\s+/g, '-')
+                    .trim();
+            }
+        });
+
+        // Image preview
+        function previewImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('previewImg').src = e.target.result;
+                    document.getElementById('imagePreview').classList.remove('hidden');
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Clear image
+        function clearImage() {
+            document.getElementById('ImageFile').value = '';
+            document.getElementById('imagePreview').classList.add('hidden');
+            document.getElementById('previewImg').src = '#';
+        }
+    </script>
+}

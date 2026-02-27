@@ -1,0 +1,247 @@
+﻿@using BlogApp.ViewModels
+@model HomeViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home";
+}
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+    <!-- Hero Section -->
+    <section class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+            <span class="text-sm font-semibold text-indigo-600 uppercase tracking-wider">
+                ✨ fresh perspective
+            </span>
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mt-2">
+                Where ideas <br class="hidden sm:block"> find clarity
+            </h1>
+            <p class="text-lg text-gray-500 mt-4 max-w-lg">
+                Thoughts on design, code, and mindful living — written for curious humans.
+            </p>
+            <div class="flex flex-wrap gap-4 mt-8">
+                <a asp-action="Index" asp-controller="BlogPost"
+                   class="bg-gray-900 hover:bg-gray-800 text-white px-7 py-3 rounded-full font-medium inline-flex items-center gap-2 transition">
+                    Start reading <i class="fas fa-arrow-right text-sm"></i>
+                </a>
+                <a asp-action="Index" asp-controller="BlogPost"
+                   class="border border-gray-300 hover:border-indigo-300 px-7 py-3 rounded-full font-medium text-gray-700 transition">
+                    Explore topics
+                </a>
+            </div>
+        </div>
+        <div class="bg-indigo-50 rounded-3xl p-8 h-64 lg:h-80 flex items-center justify-center text-indigo-200 text-8xl">
+            <i class="fas fa-pen-nib"></i>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="mt-20">
+        <div class="flex items-center justify-between">
+            <h2 class="text-2xl font-bold flex items-center gap-2">
+                <i class="fas fa-star text-amber-400 text-xl"></i> Featured post
+            </h2>
+            <a asp-action="Index" asp-controller="BlogPost"
+               class="text-indigo-600 text-sm hover:underline font-medium">
+                View all →
+            </a>
+        </div>
+
+        @if (Model.FeaturedPost != null)
+        {
+            <div class="mt-6 bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8 hover-lift transition-soft">
+                <div class="grid md:grid-cols-3 gap-6">
+
+                    <!-- Featured Image -->
+                    <div class="md:col-span-1">
+                        @if (!string.IsNullOrEmpty(Model.FeaturedPost.ImageUrl))
+                        {
+                            <img src="@Model.FeaturedPost.ImageUrl"
+                                 alt="@Model.FeaturedPost.Title"
+                                 class="w-full h-44 md:h-full object-cover rounded-xl" />
+                        }
+                        else
+                        {
+                            <div class="bg-gradient-to-br from-indigo-100 to-purple-50 rounded-xl h-44 md:h-full flex items-center justify-center text-indigo-300 text-6xl">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                        }
+                    </div>
+
+                    <!-- Featured Content -->
+                    <div class="md:col-span-2">
+                        <div class="flex items-center gap-3 text-sm">
+                            <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full font-medium">
+                                @Model.FeaturedPost.CategoryName
+                            </span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-bold mt-3">
+                            <a asp-action="Detail" asp-controller="BlogPost"
+                               asp-route-slug="@Model.FeaturedPost.Slug"
+                               class="hover:text-indigo-600 transition">
+                                @Model.FeaturedPost.Title
+                            </a>
+                        </h3>
+                        @if (!string.IsNullOrEmpty(Model.FeaturedPost.Excerpt))
+                        {
+                            <p class="text-gray-500 mt-3 text-lg">@Model.FeaturedPost.Excerpt</p>
+                        }
+                        <div class="flex items-center gap-4 mt-6">
+                            <img src="https://ui-avatars.com/api/?name=@Model.FeaturedPost.AuthorName&background=4f46e5&color=fff&size=40"
+                                 class="w-10 h-10 rounded-full" alt="@Model.FeaturedPost.AuthorName" />
+                            <div>
+                                <span class="font-medium block">@Model.FeaturedPost.AuthorName</span>
+                                <span class="text-sm text-gray-400">
+                                    @Model.FeaturedPost.CreatedAt.ToString("MMM dd, yyyy")
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 mt-4 text-sm text-gray-400">
+                            <span><i class="fas fa-heart mr-1 text-red-300"></i>@Model.FeaturedPost.LikeCount</span>
+                            <span><i class="fas fa-comment mr-1 text-indigo-300"></i>@Model.FeaturedPost.CommentCount</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="mt-6 bg-white rounded-2xl border border-gray-100 p-12 text-center text-gray-400">
+                <i class="fas fa-newspaper text-5xl mb-4 text-gray-200"></i>
+                <p>No featured posts yet.</p>
+            </div>
+        }
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="mt-20">
+        <h2 class="text-2xl font-bold">Recent posts</h2>
+
+        @if (Model.RecentPosts.Any())
+        {
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                @foreach (var post in Model.RecentPosts)
+                {
+                    <article class="bg-white p-5 rounded-2xl border border-gray-100 hover-lift transition-soft">
+
+                        <!-- Image or Placeholder -->
+                        @if (!string.IsNullOrEmpty(post.ImageUrl))
+                        {
+                            <img src="@post.ImageUrl" alt="@post.Title"
+                                 class="w-full h-40 rounded-xl object-cover" />
+                        }
+                        else
+                        {
+                            <div class="bg-gray-100 w-full h-40 rounded-xl flex items-center justify-center text-gray-300 text-4xl">
+                                <i class="fas fa-newspaper"></i>
+                            </div>
+                        }
+
+                        <!-- Category & Date -->
+                        <div class="flex items-center gap-2 mt-4 text-xs">
+                            <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full">
+                                @post.CategoryName
+                            </span>
+                            <span class="text-gray-400">@post.CreatedAt.ToString("MMM dd, yyyy")</span>
+                        </div>
+
+                        <!-- Title -->
+                        <h3 class="font-bold text-lg mt-2">
+                            <a asp-action="Detail" asp-controller="BlogPost"
+                               asp-route-slug="@post.Slug"
+                               class="hover:text-indigo-600 transition">
+                                @post.Title
+                            </a>
+                        </h3>
+
+                        <!-- Excerpt -->
+                        @if (!string.IsNullOrEmpty(post.Excerpt))
+                        {
+                            <p class="text-gray-500 text-sm mt-1 line-clamp-2">@post.Excerpt</p>
+                        }
+
+                        <!-- Author & Stats -->
+                        <div class="flex items-center justify-between mt-4">
+                            <div class="flex items-center gap-2">
+                                <img src="https://ui-avatars.com/api/?name=@post.AuthorName&background=4f46e5&color=fff&size=28"
+                                     class="w-6 h-6 rounded-full" />
+                                <span class="text-xs text-gray-500">@post.AuthorName</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-xs text-gray-400">
+                                <span><i class="fas fa-heart mr-1"></i>@post.LikeCount</span>
+                                <span><i class="fas fa-comment mr-1"></i>@post.CommentCount</span>
+                            </div>
+                        </div>
+                    </article>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="mt-6 text-center py-12 text-gray-400">
+                <p>No posts yet. Check back soon!</p>
+            </div>
+        }
+    </section>
+
+    <!-- Categories + Newsletter -->
+    <section class="mt-20 grid md:grid-cols-3 gap-8 items-start">
+
+        <!-- Categories -->
+        <div class="bg-white p-6 rounded-2xl border border-gray-100 md:col-span-1">
+            <h3 class="font-bold text-lg flex items-center gap-2">
+                <i class="fas fa-hashtag text-indigo-500"></i> Categories
+            </h3>
+            <ul class="mt-4 divide-y divide-gray-100">
+                @foreach (var category in Model.Categories)
+                {
+                    <li class="flex justify-between items-center py-3">
+                        <a asp-action="Index" asp-controller="BlogPost"
+                           asp-route-categoryId="@category.Id"
+                           class="hover:text-indigo-600 font-medium transition">
+                            @category.Name
+                        </a>
+                        <span class="bg-gray-100 text-xs px-2 py-1 rounded-full">
+                            @category.PostCount
+                        </span>
+                    </li>
+                }
+            </ul>
+            <div class="mt-4 text-center text-sm">
+                <a asp-action="Index" asp-controller="BlogPost"
+                   class="text-indigo-600 hover:underline">
+                    All categories →
+                </a>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-3xl">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-bold flex items-center gap-2">
+                        <i class="far fa-envelope"></i> Never miss a post
+                    </h3>
+                    <p class="text-gray-600 mt-2 max-w-md">
+                        Get the latest articles, resources, and inspiration straight to your inbox.
+                        No spam, only clarity.
+                    </p>
+                </div>
+                <div class="text-5xl text-indigo-200 hidden sm:block">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+            </div>
+            <form class="mt-6 flex flex-col sm:flex-row gap-3">
+                <input type="email" placeholder="Your email address"
+                       class="px-5 py-4 rounded-full flex-1 border-0 focus:ring-2 focus:ring-indigo-300 bg-white/90 placeholder-gray-400" />
+                <button type="submit"
+                        class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium transition shadow-sm">
+                    Subscribe
+                </button>
+            </form>
+            <p class="text-xs text-gray-400 mt-4">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </section>
+
+</main>

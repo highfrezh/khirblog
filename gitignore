@@ -1,0 +1,126 @@
+## ASP.NET Core MVC - BlogApp .gitignore
+
+# ========================
+# .NET / Build outputs
+# ========================
+bin/
+obj/
+out/
+
+# ========================
+# Visual Studio
+# ========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ========================
+# Visual Studio Code
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# ASP.NET Core
+# ========================
+appsettings.Development.json
+appsettings.Production.json
+
+# Keep the base appsettings but ignore secrets
+!appsettings.json
+
+# ========================
+# User Secrets
+# ========================
+secrets.json
+*.pfx
+*.p12
+
+# ========================
+# Database
+# ========================
+*.mdf
+*.ldf
+*.ndf
+
+# ========================
+# Entity Framework Migrations (optional)
+# Uncomment if you don't want to track migrations
+# ========================
+# Migrations/
+
+# ========================
+# NuGet
+# ========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ========================
+# Image Uploads (user content)
+# ========================
+wwwroot/uploads/images/*
+!wwwroot/uploads/images/.gitkeep
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.txt.log
+
+# ========================
+# OS Files
+# ========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ========================
+# Rider / JetBrains
+# ========================
+.idea/
+*.sln.iml
+
+# ========================
+# Publish output
+# ========================
+publish/
+PublishProfiles/
+
+# ========================
+# Test Results
+# ========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ========================
+# Environment files
+# ========================
+.env
+.env.local
+.env.production

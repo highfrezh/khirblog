@@ -1,0 +1,63 @@
+﻿@model List<AdminTagViewModel>
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Tags";
+}
+
+<div class="flex items-center justify-between mb-8">
+    <div>
+        <h1 class="text-3xl font-bold">Tags</h1>
+        <p class="text-gray-500 mt-1">Manage blog tags</p>
+    </div>
+    <a asp-action="Create" asp-controller="AdminTag"
+       class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
+        <i class="fas fa-plus mr-1"></i> New Tag
+    </a>
+</div>
+
+<div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+    <table class="w-full text-sm">
+        <thead class="bg-gray-50 border-b border-gray-100">
+            <tr>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600">Name</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden md:table-cell">Description</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600">Posts</th>
+                <th class="text-right px-6 py-4 font-semibold text-gray-600">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-50">
+            @foreach (var tag in Model)
+            {
+                <tr class="hover:bg-gray-50 transition">
+                    <td class="px-6 py-4 font-medium">#@tag.Name</td>
+                    <td class="px-6 py-4 text-gray-500 hidden md:table-cell">
+                        @(tag.Description ?? "—")
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs">
+                            @tag.PostCount posts
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <div class="flex items-center justify-end gap-2">
+                            <a asp-action="Edit" asp-controller="AdminTag"
+                               asp-route-id="@tag.Id"
+                               class="p-2 text-gray-400 hover:text-indigo-600 transition">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <form asp-action="Delete" asp-controller="AdminTag" method="post"
+                                  onsubmit="return confirm('Delete this tag?')">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@tag.Id" />
+                                <button type="submit" class="p-2 text-gray-400 hover:text-red-500 transition">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

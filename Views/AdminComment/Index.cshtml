@@ -1,0 +1,76 @@
+﻿@model List<AdminCommentViewModel>
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Comments";
+}
+
+<div class="flex items-center justify-between mb-8">
+    <div>
+        <h1 class="text-3xl font-bold">Comments</h1>
+        <p class="text-gray-500 mt-1">Moderate all comments</p>
+    </div>
+    <span class="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium">
+        @Model.Count total comments
+    </span>
+</div>
+
+@if (Model.Any())
+{
+    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+            <thead class="bg-gray-50 border-b border-gray-100">
+                <tr>
+                    <th class="text-left px-6 py-4 font-semibold text-gray-600">Comment</th>
+                    <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden md:table-cell">Author</th>
+                    <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden md:table-cell">Post</th>
+                    <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden sm:table-cell">Date</th>
+                    <th class="text-right px-6 py-4 font-semibold text-gray-600">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-50">
+                @foreach (var comment in Model)
+                {
+                    <tr class="hover:bg-gray-50 transition">
+                        <td class="px-6 py-4">
+                            <p class="text-gray-700 line-clamp-2 max-w-xs">@comment.Content</p>
+                        </td>
+                        <td class="px-6 py-4 text-gray-500 hidden md:table-cell">
+                            @comment.AuthorName
+                        </td>
+                        <td class="px-6 py-4 hidden md:table-cell">
+                            <a asp-action="Detail" asp-controller="BlogPost"
+                               asp-route-slug="@comment.PostSlug"
+                               class="text-indigo-600 hover:underline text-xs">
+                                @comment.PostTitle
+                            </a>
+                        </td>
+                        <td class="px-6 py-4 text-gray-400 text-xs hidden sm:table-cell">
+                            @comment.CreatedAt.ToString("MMM dd, yyyy")
+                        </td>
+                        <td class="px-6 py-4 text-right">
+                            <form asp-action="Delete" asp-controller="AdminComment"
+                                  method="post"
+                                  onsubmit="return confirm('Delete this comment?')">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@comment.Id" />
+                                <button type="submit"
+                                        class="p-2 text-gray-400 hover:text-red-500 transition">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="text-center py-20 bg-white rounded-2xl border border-gray-100">
+        <i class="fas fa-comments text-gray-200 text-6xl mb-4"></i>
+        <h3 class="text-xl font-bold text-gray-400">No comments yet</h3>
+        <p class="text-gray-400 mt-2">Comments will appear here once users start engaging.</p>
+    </div>
+}

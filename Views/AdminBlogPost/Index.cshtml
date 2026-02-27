@@ -1,0 +1,98 @@
+﻿@model List<AdminBlogPostViewModel>
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Posts";
+}
+
+<div class="flex items-center justify-between mb-8">
+    <div>
+        <h1 class="text-3xl font-bold">Blog Posts</h1>
+        <p class="text-gray-500 mt-1">Manage all blog posts</p>
+    </div>
+    <a asp-action="Create" asp-controller="AdminBlogPost"
+       class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
+        <i class="fas fa-plus mr-1"></i> New Post
+    </a>
+</div>
+
+<div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+    <table class="w-full text-sm">
+        <thead class="bg-gray-50 border-b border-gray-100">
+            <tr>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600">Title</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden md:table-cell">Author</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden md:table-cell">Category</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600">Status</th>
+                <th class="text-left px-6 py-4 font-semibold text-gray-600 hidden sm:table-cell">Stats</th>
+                <th class="text-right px-6 py-4 font-semibold text-gray-600">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-50">
+            @foreach (var post in Model)
+            {
+                <tr class="hover:bg-gray-50 transition">
+                    <td class="px-6 py-4">
+                        <a asp-action="Detail" asp-controller="BlogPost"
+                           asp-route-slug="@post.Slug"
+                           class="font-medium hover:text-indigo-600 transition">
+                            @post.Title
+                        </a>
+                        <p class="text-xs text-gray-400 mt-0.5">@post.CreatedAt.ToString("MMM dd, yyyy")</p>
+                    </td>
+                    <td class="px-6 py-4 text-gray-500 hidden md:table-cell">@post.AuthorName</td>
+                    <td class="px-6 py-4 hidden md:table-cell">
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs">
+                            @post.CategoryName
+                        </span>
+                    </td>
+                    <td class="px-6 py-4">
+                        @if (post.IsPublished)
+                        {
+                            <span class="bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs">Published</span>
+                        }
+                        else
+                        {
+                            <span class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs">Draft</span>
+                        }
+                    </td>
+                    <td class="px-6 py-4 hidden sm:table-cell">
+                        <div class="flex items-center gap-3 text-xs text-gray-400">
+                            <span><i class="fas fa-heart mr-1 text-red-300"></i>@post.LikeCount</span>
+                            <span><i class="fas fa-comment mr-1 text-indigo-300"></i>@post.CommentCount</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <div class="flex items-center justify-end gap-2">
+                            <!-- Toggle Publish -->
+                            <form asp-action="TogglePublish" asp-controller="AdminBlogPost" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@post.Id" />
+                                <button type="submit"
+                                        class="p-2 text-gray-400 hover:text-green-500 transition"
+                                        title="@(post.IsPublished ? "Unpublish" : "Publish")">
+                                    <i class="fas @(post.IsPublished ? "fa-eye-slash" : "fa-eye")"></i>
+                                </button>
+                            </form>
+                            <!-- Edit -->
+                            <a asp-action="Edit" asp-controller="AdminBlogPost"
+                               asp-route-id="@post.Id"
+                               class="p-2 text-gray-400 hover:text-indigo-600 transition">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <!-- Delete -->
+                            <form asp-action="Delete" asp-controller="AdminBlogPost" method="post"
+                                  onsubmit="return confirm('Are you sure you want to delete this post?')">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@post.Id" />
+                                <button type="submit" class="p-2 text-gray-400 hover:text-red-500 transition">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

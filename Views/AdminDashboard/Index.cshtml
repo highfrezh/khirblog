@@ -1,0 +1,167 @@
+﻿@model AdminDashboardViewModel
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<!-- Page Header -->
+<div class="mb-8">
+    <h1 class="text-3xl font-bold">Dashboard</h1>
+    <p class="text-gray-500 mt-1">Welcome back! Here's what's happening.</p>
+</div>
+
+<!-- Stats Grid -->
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+        <i class="fas fa-newspaper text-indigo-500"></i>
+        <p class="text-2xl font-bold mt-2">@Model.TotalPosts</p>
+        <p class="text-sm text-gray-500">Total posts</p>
+        <div class="flex items-center gap-2 mt-2 text-xs text-gray-400">
+            <span class="text-green-500">@Model.PublishedPosts published</span>
+            <span>·</span>
+            <span>@Model.DraftPosts drafts</span>
+        </div>
+    </div>
+
+    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+        <i class="fas fa-users text-purple-500"></i>
+        <p class="text-2xl font-bold mt-2">@Model.TotalUsers</p>
+        <p class="text-sm text-gray-500">Users</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+        <i class="fas fa-heart text-red-400"></i>
+        <p class="text-2xl font-bold mt-2">@Model.TotalLikes</p>
+        <p class="text-sm text-gray-500">Total likes</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+        <i class="fas fa-comments text-green-500"></i>
+        <p class="text-2xl font-bold mt-2">@Model.TotalComments</p>
+        <p class="text-sm text-gray-500">Comments</p>
+    </div>
+    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+        <i class="fas fa-comments text-green-500"></i>
+        <p class="text-2xl font-bold mt-2">@Model.TotalComments</p>
+        <p class="text-sm text-gray-500">Comments</p>
+        <a asp-action="Index" asp-controller="AdminComment"
+           class="text-xs text-indigo-600 hover:underline mt-2 block">
+            Manage →
+        </a>
+    </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <a asp-action="Create" asp-controller="AdminBlogPost"
+       class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-xl text-sm font-medium text-center transition">
+        <i class="fas fa-plus mr-2"></i> New Post
+    </a>
+    <a asp-action="Create" asp-controller="AdminCategory"
+       class="bg-white hover:bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl text-sm font-medium text-center transition">
+        <i class="fas fa-folder-plus mr-2 text-indigo-500"></i> New Category
+    </a>
+    <a asp-action="Create" asp-controller="AdminTag"
+       class="bg-white hover:bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl text-sm font-medium text-center transition">
+        <i class="fas fa-tag mr-2 text-indigo-500"></i> New Tag
+    </a>
+    <a asp-action="Index" asp-controller="AdminUser"
+       class="bg-white hover:bg-gray-50 border border-gray-200 px-4 py-3 rounded-xl text-sm font-medium text-center transition">
+        <i class="fas fa-users mr-2 text-indigo-500"></i> Manage Users
+    </a>
+</div>
+
+<!-- Recent Posts Table -->
+<div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+    <div class="flex items-center justify-between mb-6">
+        <h2 class="font-bold text-lg">Recent posts</h2>
+        <a asp-action="Index" asp-controller="AdminBlogPost"
+           class="text-sm text-indigo-600 hover:underline">
+            View all →
+        </a>
+    </div>
+
+    @if (Model.RecentPosts.Any())
+    {
+        <table class="w-full text-left text-sm">
+            <thead>
+                <tr class="text-gray-400 text-sm border-b border-gray-100">
+                    <th class="pb-3 font-medium">Title</th>
+                    <th class="pb-3 font-medium hidden md:table-cell">Author</th>
+                    <th class="pb-3 font-medium hidden md:table-cell">Category</th>
+                    <th class="pb-3 font-medium">Status</th>
+                    <th class="pb-3 font-medium hidden sm:table-cell">Date</th>
+                    <th class="pb-3 font-medium text-right">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var post in Model.RecentPosts)
+                {
+                    <tr class="border-t border-gray-50 hover:bg-gray-50 transition">
+                        <td class="py-3">
+                            <a asp-action="Detail" asp-controller="BlogPost"
+                               asp-route-slug="@post.Slug"
+                               class="font-medium hover:text-indigo-600 transition">
+                                @post.Title
+                            </a>
+                        </td>
+                        <td class="py-3 text-gray-500 hidden md:table-cell">@post.AuthorName</td>
+                        <td class="py-3 hidden md:table-cell">
+                            <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs">
+                                @post.CategoryName
+                            </span>
+                        </td>
+                        <td class="py-3">
+                            @if (post.IsPublished)
+                            {
+                                <span class="bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs">
+                                    Published
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs">
+                                    Draft
+                                </span>
+                            }
+                        </td>
+                        <td class="py-3 text-gray-400 text-xs hidden sm:table-cell">
+                            @post.CreatedAt.ToString("MMM dd, yyyy")
+                        </td>
+                        <td class="py-3 text-right">
+                            <div class="flex items-center justify-end gap-2">
+                                <a asp-action="Edit" asp-controller="AdminBlogPost"
+                                   asp-route-id="@post.Id"
+                                   class="p-1.5 text-gray-400 hover:text-indigo-600 transition">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <form asp-action="Delete" asp-controller="AdminBlogPost"
+                                      method="post"
+                                      onsubmit="return confirm('Delete this post?')">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@post.Id" />
+                                    <button type="submit"
+                                            class="p-1.5 text-gray-400 hover:text-red-500 transition">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="text-center py-10 text-gray-400">
+            <i class="fas fa-newspaper text-4xl mb-3 text-gray-200"></i>
+            <p>No posts yet.</p>
+            <a asp-action="Create" asp-controller="AdminBlogPost"
+               class="mt-3 inline-block text-indigo-600 hover:underline text-sm">
+                Create your first post
+            </a>
+        </div>
+    }
+</div>

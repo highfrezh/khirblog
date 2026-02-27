@@ -1,0 +1,103 @@
+﻿@* @model BlogApp.Models.BlogPost
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = Model.Title;
+    var userId = UserManager.GetUserId(User);
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <article class="blog-post">
+            <h1 class="mb-4">@Model.Title</h1>
+
+            <div class="text-muted mb-4">
+                Posted by @Model.Author?.FirstName @Model.Author?.LastName on @Model.CreatedAt.ToString("MMMM dd, yyyy")
+                @if (Model.UpdatedAt.HasValue)
+                {
+                    <span class="ms-3">Updated: @Model.UpdatedAt.Value.ToString("MMMM dd, yyyy")</span>
+                }
+            </div>
+
+            <div class="mb-4">
+                @foreach (var bpt in Model.BlogPostTags)
+                {
+                    <span class="badge bg-secondary">@bpt.Tag.Name</span>
+                }
+            </div>
+
+            <div class="blog-content mb-4">
+                @Html.Raw(Model.Content.Replace("\n", "<br />"))
+            </div>
+
+            <!-- Like Button -->
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Blog" asp-action="ToggleLike" method="post" class="d-inline">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="postId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-outline-danger">
+                        <i class="bi bi-heart"></i> @Model.Likes.Count Likes
+                    </button>
+                </form>
+            }
+            else
+            {
+                <button class="btn btn-outline-danger" disabled>
+                    <i class="bi bi-heart"></i> @Model.Likes.Count Likes
+                </button>
+            }
+
+            @if (User.Identity.IsAuthenticated && Model.AuthorId == userId)
+            {
+                <a asp-controller="Blog" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary ms-2">Edit Post</a>
+            }
+        </article>
+
+        <hr class="my-5" />
+
+        <!-- Comments Section -->
+        <section class="comments">
+            <h3 class="mb-4">Comments (@Model.Comments.Count)</h3>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Blog" asp-action="AddComment" method="post" class="mb-4">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="postId" value="@Model.Id" />
+                    <div class="mb-3">
+                        <textarea name="content" class="form-control" rows="3" placeholder="Add a comment..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post Comment</button>
+                </form>
+            }
+
+            @foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedAt))
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">@comment.Content</p>
+                        <div class="text-muted small">
+                            Posted by @comment.User?.FirstName @comment.User?.LastName on @comment.CreatedAt.ToString("MMMM dd, yyyy HH:mm")
+                            @if (comment.UpdatedAt.HasValue)
+                            {
+                                <span class="ms-3">(edited)</span>
+                            }
+                        </div>
+                        @if (User.Identity.IsAuthenticated && comment.UserId == userId)
+                        {
+                            <form asp-controller="Blog" asp-action="DeleteComment" method="post" class="mt-2">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="commentId" value="@comment.Id" />
+                                <button type="submit" class="btn btn-sm btn-outline-danger"
+                                        onclick="return confirm('Delete this comment?')">
+                                    Delete
+                                </button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            }
+        </section>
+    </div>
+</div> *@

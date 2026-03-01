@@ -2,25 +2,18 @@ using BlogApp.Data;
 using BlogApp.Models;
 using BlogApp.Repositories.Implementations;
 using BlogApp.Repositories.Interfaces;
-using BlogApp.Services;
 using BlogApp.Services.Implementations;
 using BlogApp.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ImageService = BlogApp.Services.Implementations.ImageService;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//    options.UseSqlServer(connectionString));
-
+// Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
@@ -33,7 +26,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
-// Configure cookie authentication
+// Cookie config
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Account/Login";
@@ -59,7 +52,7 @@ builder.Services.AddScoped<IImageService, ImageService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
+// HTTP pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -73,27 +66,36 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "admin",
+    pattern: "Admin/{controller=AdminDashboard}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// Migrate and seed — runs once on startup
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     try
     {
-        Console.WriteLine(">>> Seeding database...");
-        await SeedData.InitializeAsync(
-            services.GetRequiredService<UserManager<ApplicationUser>>(),
-            services.GetRequiredService<RoleManager<IdentityRole>>(),
-            services.GetRequiredService<ApplicationDbContext>()
-        );
-        Console.WriteLine(">>> Seeding completed successfully!");
+        var db = services.GetRequiredService<ApplicationDbContext>();
+
+        // Auto migrate on startup (important for Render deployment)
+        db.Database.Migrate();
+
+        // Seed roles, admin user, categories, tags
+        var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+        var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+        await SeedData.InitializeAsync(userManager, roleManager, db);
+
+        Console.WriteLine(">>> Migration and seeding completed successfully!");
     }
     catch (Exception ex)
     {
-        Console.WriteLine($">>> Seeding FAILED: {ex.Message}");
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while seeding the database.");
+        logger.LogError(ex, "An error occurred during migration or seeding.");
+        Console.WriteLine($">>> Migration/Seeding FAILED: {ex.Message}");
     }
 }
 

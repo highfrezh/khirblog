@@ -73,6 +73,12 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/Home/Index");
+    return Task.CompletedTask;
+});
+
 // Migrate and seed — runs once on startup
 using (var scope = app.Services.CreateScope())
 {
